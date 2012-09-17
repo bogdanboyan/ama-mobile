@@ -14,17 +14,28 @@
 
 <html>
   <head>
-    <title>Mobile Overview</title>
+    <title>Mobile Marketing Intro</title>
 
     <meta charset='utf-8'>
     <script src='slides.js'></script>
   </head>
   
   <style>
-    /* Your individual styles here, or just use inline styles if that’s
-       what you want. */
+    /*
+     * Customizations
+     */
+
+    .pro {
+      color: #050;
+    }
+    .con {
+      color: #700;
+    }
     
-    
+    .subdue {
+      font-size: .7em;
+      opacity: .7;
+    }
   </style>
 
   <body style='display: none'>
@@ -36,7 +47,7 @@
 
       <article>
         <h1>
-          Mobile Marketing
+          Mobile Marketing Intro
           <br>
         </h1>
         <p>
@@ -63,37 +74,41 @@
       </article>
 
       <article>
+        <h1>Mobile experiences</h1>
+      </article>
+
+      <article>
         <h3>Native apps</h3>
-        <ul class="build">
+        <ul>
           <li>Some phones have their own platform to build apps.
           <li>You may have heard of: iPhones, Android, WebOS
-          <li>Building "apps" takes longer, requires more expertise, and <b>costs more</b>.
-          <li>Your app will look and feel like part of the phone.
-          <li>Each user must download the app before using it.
+          <li class="pro">Your app will look and feel like part of the phone.
+          <li class="con">Building native apps takes longer, requires more expertise, and <b>costs more</b>. (Pay for each version)
+          <li class="con">Each user must download the app before using it.
         </ul>
       </article>
 
       <article>
         <h3>Mobile websites</h3>
-        <ul class="build">
-          <li>All can access the web equally!
-          <li>Building a website is faster, free to learn, and cheaper!
-          <li>A well-built mobile site is an "on-demand app" - it loads immediately when you visit a URL.
-          <li>Small downside: looks weird on desktop, so you have to build a website for each.
-          <li>Much cheaper than apps.
+        <ul>
+          <li class="pro">All can access the web equally
+          <li class="pro">Building a website is faster, free to learn, and cheaper!
+          <li class="pro">A well-built mobile site is an "on-demand app" - it loads immediately when you visit a URL.
+          <li class="pro">Much cheaper than apps. Many CMSs have drop-in solutions.
+          <li class="con">Can look odd on desktop, so you have to build a website for each, and redirect.
         </ul>
-        <!-- p>Example: <a href="http://m.nbcsports.com">NBC Sports</a></p -->
+        <p>Examples: <a href="http://m.cnn.com">m.cnn.com</a>, <a href="http://m.nbcsports.com">m.nbcsports.com</a></p>
       </article>
 
       <article>
         <h3>Responsive websites</h3>
-        <ul class="build">
-          <li>A way of merging your desktop and mobile website into one package.
-          <li>More work than a simple mobile site, but also more flexible.
-          <li>Handles the most diverse set of devices (like tablets)
-          <li>Still cheaper than apps.
+        <ul>
+          <li>A way of packaging your desktop and mobile websites together. The website is built to <b>respond</b> to the device that displays it. Can be based on screen size, GPS, or dozens of other device features.
+          <li class="pro">Handles the most diverse set of devices (including phones, tablets, TVs, projectors...)
+          <li class="con">Some kinks have not yet been worked out, like how to handle IAB and other advertising standards.
         </ul>
-        <!-- p>Examples: fourkitchens.com, grammy.com, seesparkbox.com</p -->
+        <p>Reference: <a href="http://www.alistapart.com/articles/responsive-web-design/">Responsive web design</a>, <a href="http://www.lukew.com/ff/entry.asp?933">Mobile-first</a>, <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu">Rethinking the mobile web</a></p>
+        <p>Examples: <a href="http://fourkitchens.com">Four Kitchens</a>, <a href="http://www.icann.org">ICANN.org</a></p>
       </article>
       
 
@@ -109,7 +124,7 @@
 
       <article>
         <h3>Keep it simple</h3>
-        <ul class="build">
+        <ul>
           <li>You want people to take action on your website.
           <li>Donating
           <li>Pledging
@@ -121,10 +136,10 @@
 
       <article>
         <h1>Don't</h1>
-        <ul class="build">
+        <ul>
           <li>Put too much text on the homepage.
           <li>Use Flash. It's over.
-          <li>Huge images / large downloads.
+          <li>Load huge images / force large downloads.
           <li>Put important info in an image.
           <li>Use a bunch of social widgets.
         </ul>
@@ -132,7 +147,7 @@
 
       <article>
         <h1>Do</h1>
-        <ul class="build">
+        <ul>
           <li>Use short, concise language
           <li>Call people to action ("Donate now!")
           <li>Use big, unmistakable buttons
@@ -144,35 +159,36 @@
 
 
       <article>
-        <h1>the Key to Success</h1>
+        <h1>the Key to Success is...</h1>
       </article>
 
       <article>
-        <h1>Performance</h1>
+        <h1>Performance!</h1>
         <p>(send this info to your developer)</p>
       </article>
 
       <article>
-        <h3>Why worry about Performance?</h3>
-        <ul class="build">
-          <li>People are impatient. The site must load fast!
-          <li>Mobile performance is trickier than desktop websites.
-          <li>Loads of resources available to help with this.
-          <li>Links:
-          <ul>
-            <li><a href="http://developer.yahoo.com/yslow/">YSlow</a>
-            <li><a href="http://mobilewebbestpractices.com">mobilewebbestpractices.com</a>
-          </ul>
+        <h3>Why worry about site speed?</h3>
+        <ul>
+          <li>Mobile users can be impatient, distracted easily.
+          <li>Sometimes you only have a few seconds of their attention, so each one is precious.</li>
+          <li><b>The site must load fast!</b>
+          <li class="con">Mobile performance is trickier than desktop websites.
+          <li class="pro">Loads of resources available to help with this.
+          <li><a href="http://developer.yahoo.com/yslow/">YSlow</a> tells you why your site is slow, recommends fixes.
+          <li><a href="http://mobilewebbestpractices.com">mobilewebbestpractices.com</a> is a great starting point for creating mobile sites: strategy, design, development.
+          <li><a href="http://stevesouders.com/mobileperf/">mobile performance links/tools</a> from Steve Souders, mobile performance guru at Google</li>
         </ul>
       </article>
 
 
       <article>
-        <h1>Thank you!</h1>
+        <h1>The End</h1>
         <p>
           Presented by <a href="http://fourkitchens.com/about/team/chris-ruppel">Chris Ruppel</a><br>
           at <a href="http://amahouston.net/events/mobile-marketing-for-nonprofits/">Mobile Marketing for Non-Profits</a>
         </p>
+        <p class="subdue">Feb 29, 2012 in Houston, TX</p>
       </article>
 
 
